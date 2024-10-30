@@ -117,9 +117,6 @@ sudo cp -f /etc/resolv.conf $PWD/airootfs/etc/resolv.conf
 cp -r $PWD /var/tmp/pwnarch
 sudo mv -f /var/tmp/pwnarch $PWD/airootfs/usr/share/pwnarch
 
-# Copy files
-sudo cp -r $PWD $isodir
-
 # Import ISO image signing key
 sudo gpg --import sig.key
 
