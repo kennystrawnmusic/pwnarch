@@ -80,7 +80,7 @@ then
 fi
 
 # Main dependency
-sudo pacman --noconfirm --needed --assume-installed=arch-install-scripts --assume-installed=bash --assume-installed=dosfstools --assume-installed=e2fsprogs --assume-installed=erofs-utils --assume-installed=libarchive --assume-installed=libisoburn --assume-installed=mtools --assume-installed=squashfs-tools -S archiso
+sudo pacman --noconfirm --needed --nodeps -S archiso
 
 # Create custom AUR repository (if it doesn't already exist)
 if [ ! -d /var/tmp/aurpkgs ]
