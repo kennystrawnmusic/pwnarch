@@ -82,7 +82,7 @@ fi
 # Main dependency
 if [ ! -f /etc/os-release ] || [ -z "$(grep 'Arch' /etc/os-release)" ]
 then
-  sudo pacman --noconfirm --needed --nodeps -Sy archiso
+  sudo pacman --noconfirm --needed -Sydd archiso
 else
   sudo pacman --noconfirm --needed -S archiso
 fi
