@@ -64,7 +64,7 @@ then
   fi
 
   # This pulls in pacman as a dependency
-  sudo bash -c 'nix-env -iA nixpkgs.{arch-install-scripts,dosfstools,e2fsprogs,squashfs-tools-ng,libarchive,libisoburn,mtools}'
+  sudo bash -c 'nix-env -iA nixpkgs.{arch-install-scripts,dosfstools,e2fsprogs,erofs-utils,squashfs-tools-ng,libarchive,libisoburn,mtools}'
 
   # Other things need to be setup on non-Arch hosts for this to work
   if [ ! -d /etc/pacman.d ]
