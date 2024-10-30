@@ -45,6 +45,7 @@ cleanup() {
 
   if [ ! -f /etc/os-release ] || [ -z "$(grep 'Arch' /etc/os-release)" ]
   then
+    sudo pacman -R arch-install-scripts
     nix_cleanup
   fi
 }
@@ -63,7 +64,7 @@ then
   fi
 
   # This pulls in pacman as a dependency
-  sudo bash -c 'nix-env -iA nixpkgs.arch-install-scripts'
+  sudo bash -c 'nix-env -iA nixpkgs.{arch-install-scripts,dosfstools,e2fsprogs,squashfs-tools-ng,libarchive,libisoburn,mtools}'
 
   # Other things need to be setup on non-Arch hosts for this to work
   if [ ! -d /etc/pacman.d ]
@@ -79,7 +80,7 @@ then
 fi
 
 # Main dependency
-sudo pacman --noconfirm --needed --overwrite=* -S archiso
+sudo pacman --noconfirm --needed --assume-installed=arch-install-scripts --assume-installed=bash --assume-installed=dosfstools --assume-installed=e2fsprogs --assume-installed=erofs-utils --assume-installed=libarchive --assume-installed=libisoburn --assume-installed=mtools --assume-installed=squashfs-tools -S archiso
 
 # Create custom AUR repository (if it doesn't already exist)
 if [ ! -d /var/tmp/aurpkgs ]
