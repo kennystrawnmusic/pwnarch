@@ -44,20 +44,20 @@ else
 fi
 
 # Set default menu entry
-default=pwnarch
+default=archlinux
 timeout=15
 timeout_style=menu
 
 
 # Menu entries
 
-menuentry "PwnArch Linux install medium (%ARCH%, ${archiso_platform})" --class arch --class gnu-linux --class gnu --class os --id 'pwnarch' {
+menuentry "PwnArch Linux install medium (%ARCH%, ${archiso_platform})" --class arch --class gnu-linux --class gnu --class os --id 'archlinux' {
     set gfxpayload=keep
     linux /%INSTALL_DIR%/boot/%ARCH%/vmlinuz-linux-zen archisobasedir=%INSTALL_DIR% archisosearchuuid=%ARCHISO_UUID% quiet splash loglevel=3 rd.udev.log_level=3 rd.udev.log_priority=3 sysrq_always_enabled=1 nvidia_drm.modeset=1 nvidia_drm.fbdev=1
     initrd /%INSTALL_DIR%/boot/%ARCH%/initramfs-linux-zen.img
 }
 
-menuentry "PwnArch Linux install medium with speakup screen reader (%ARCH%, ${archiso_platform})" --hotkey s --class arch --class gnu-linux --class gnu --class os --id 'pwnarch-accessibility' {
+menuentry "PwnArch Linux install medium with speakup screen reader (%ARCH%, ${archiso_platform})" --hotkey s --class arch --class gnu-linux --class gnu --class os --id 'archlinux-accessibility' {
     set gfxpayload=keep
     linux /%INSTALL_DIR%/boot/%ARCH%/vmlinuz-linux-zen archisobasedir=%INSTALL_DIR% archisosearchuuid=%ARCHISO_UUID% accessibility=on quiet splash loglevel=3 rd.udev.log_level=3 rd.udev.log_priority=3 sysrq_always_enabled=1 nvidia_drm.modeset=1 nvidia_drm.fbdev=1
     initrd /%INSTALL_DIR%/boot/%ARCH%/initramfs-linux-zen.img
