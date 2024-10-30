@@ -80,7 +80,7 @@ then
 fi
 
 # Main dependency
-sudo pacman --noconfirm --needed --nodeps -S archiso
+sudo pacman --noconfirm --needed --nodeps -Syu archiso
 
 # Create custom AUR repository (if it doesn't already exist)
 if [ ! -d /var/tmp/aurpkgs ]
