@@ -86,6 +86,7 @@ then
 else
   sudo pacman --noconfirm --needed -S archiso
 fi
+
 # Create custom AUR repository (if it doesn't already exist)
 if [ ! -d /var/tmp/aurpkgs ]
 then
