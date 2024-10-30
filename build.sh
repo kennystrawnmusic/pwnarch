@@ -80,8 +80,12 @@ then
 fi
 
 # Main dependency
-sudo pacman --noconfirm --needed --nodeps -Sy archiso
-
+if [ ! -f /etc/os-release ] || [ -z "$(grep 'Arch' /etc/os-release)" ]
+then
+  sudo pacman --noconfirm --needed --nodeps -Sy archiso
+else
+  sudo pacman --noconfirm --needed -S archiso
+fi
 # Create custom AUR repository (if it doesn't already exist)
 if [ ! -d /var/tmp/aurpkgs ]
 then
