@@ -1,0 +1,72 @@
+    OpenRGB v0.91
+    Commit: bdfd2a3290d3a7acce39b3c3fe9f537d802c75d0 from 2024-10-20 19:57:22 +0000
+    Launched: 20241022_055920
+====================================================================================================
+
+53    |Info:    Saving detector settings
+54    |Info:    Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+56    |Info:    ------------------------------------------------------
+56    |Info:    |             Detecting I2C interfaces               |
+56    |Info:    ------------------------------------------------------
+56    |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2786 Subsystem: 1462:5138
+56    |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:2786 Subsystem: 1462:5138
+56    |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5138
+56    |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2786 Subsystem: 1462:5138
+56    |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1462:7D98
+56    |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5138
+56    |Info:    ------------------------------------------------------
+56    |Info:    |               Detecting I2C devices                |
+56    |Info:    ------------------------------------------------------
+391   |Info:    ------------------------------------------------------
+391   |Info:    |               Detecting I2C PCI devices            |
+391   |Info:    ------------------------------------------------------
+394   |Info:    ------------------------------------------------------
+394   |Info:    |               Detecting HID devices                |
+394   |Info:    ------------------------------------------------------
+464   |Info:    [MSI PRO B760-VC WIFI 7 BULK (MS-7D98)] Registering RGB controller
+464   |Info:    ------------------------------------------------------
+464   |Info:    |            Detecting libusb HID devices            |
+464   |Info:    ------------------------------------------------------
+483   |Info:    ------------------------------------------------------
+483   |Info:    |              Detecting other devices               |
+483   |Info:    ------------------------------------------------------
+485   |Info:    [ResourceManager] Calling Post-detection callbacks
+485   |Info:    ------------------------------------------------------
+485   |Info:    |                Detection completed                 |
+485   |Info:    ------------------------------------------------------
+1057461|Info:    Initializing HID interfaces: Success
+1057461|Info:    ------------------------------------------------------
+1057461|Info:    |               Start device detection               |
+1057461|Info:    ------------------------------------------------------
+1057464|Info:    ------------------------------------------------------
+1057465|Info:    |             Detecting I2C interfaces               |
+1057465|Info:    ------------------------------------------------------
+1057465|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2786 Subsystem: 1462:5138
+1057465|Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:2786 Subsystem: 1462:5138
+1057465|Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2786 Subsystem: 1462:5138
+1057465|Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2786 Subsystem: 1462:5138
+1057465|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1462:7D98
+1057465|Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2786 Subsystem: 1462:5138
+1057465|Info:    ------------------------------------------------------
+1057465|Info:    |               Detecting I2C devices                |
+1057465|Info:    ------------------------------------------------------
+1060383|Info:    ------------------------------------------------------
+1060383|Info:    |               Detecting I2C PCI devices            |
+1060383|Info:    ------------------------------------------------------
+1060389|Info:    ------------------------------------------------------
+1060389|Info:    |               Detecting HID devices                |
+1060389|Info:    ------------------------------------------------------
+1060456|Info:    [MSI PRO B760-VC WIFI 7 BULK (MS-7D98)] Registering RGB controller
+1060456|Info:    ------------------------------------------------------
+1060456|Info:    |            Detecting libusb HID devices            |
+1060456|Info:    ------------------------------------------------------
+1060470|Info:    ------------------------------------------------------
+1060470|Info:    |              Detecting other devices               |
+1060470|Info:    ------------------------------------------------------
+1060473|Info:    [ResourceManager] Calling Post-detection callbacks
+1060473|Info:    ------------------------------------------------------
+1060473|Info:    |                Detection completed                 |
+1060473|Info:    ------------------------------------------------------

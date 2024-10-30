@@ -1,0 +1,12 @@
+base
+base-devel
+lib32-dbus
+lib32-libcap
+lib32-libpcap
+lib32-systemd
+libcap
+libdbus-1.so
+libsystemd.so
+wine
+wine-mono
+wine_gecko

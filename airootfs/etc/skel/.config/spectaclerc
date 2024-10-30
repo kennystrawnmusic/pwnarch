@@ -1,0 +1,10 @@
+[GuiConfig]
+captureMode=0
+
+[ImageSave]
+lastImageSaveAsLocation=file:///home/htb-ac-1424625/Pictures/Screenshots/endpointconnect.png
+lastImageSaveLocation=file:///home/htb-ac-1424625/Pictures/Screenshots/endpointconnect.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

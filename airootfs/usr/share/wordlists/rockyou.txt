@@ -1,0 +1,1 @@
+/usr/share/wordlists/seclists/Passwords/Leaked-Databases/rockyou.txt

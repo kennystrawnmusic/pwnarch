@@ -1,0 +1,9 @@
+[Added Associations]
+x-scheme-handler/http=google-chrome-unstable.desktop
+x-scheme-handler/https=google-chrome-unstable.desktop
+text/html=google-chrome-unstable.desktop
+
+[Default Applications]
+x-scheme-handler/http=google-chrome-unstable.desktop
+x-scheme-handler/https=google-chrome-unstable.desktop
+text/html=google-chrome-unstable.desktop

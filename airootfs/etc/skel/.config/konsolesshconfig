@@ -1,0 +1,12 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][ec2-44-209-200-128.compute-1.amazonaws.com]
+hostname=ec2-44-209-200-128.compute-1.amazonaws.com
+identifier=ec2-44-209-200-128.compute-1.amazonaws.com
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=~/.ssh/WT-EC2-GH-access-ed25519
+useSshConfig=true
+username=ec2-user

@@ -1,0 +1,204 @@
+# STARTED AT: 2024-10-19 20:23:53.187772758 -07:00
+# ARGS: rate-mirrors --entry-country=United States blackarch
+# MIRRORS LEFT AFTER FILTERING: 93
+# JUMP #1
+# EXPLORING US
+# VISITED US
+#     + NEIGHBOR UK (by HubsFirst)
+#     + NEIGHBOR CN (by HubsFirst)
+#     + NEIGHBOR JP (by HubsFirst)
+#     + NEIGHBOR DE (by DistanceFirst)
+#     + NEIGHBOR CA (by DistanceFirst)
+#     + NEIGHBOR EC (by DistanceFirst)
+# [US] SpeedTestResult { speed: 10.88 MB/s; elapsed: 866.321435ms; connection_time: 244.511554ms }
+# TOO FEW BYTES LOADED http://blackarch.org/blackarch/blackarch/
+# [US] SpeedTestResult { speed: 1.58 MB/s; elapsed: 977.513649ms; connection_time: 728.79933ms }
+# [UK] SpeedTestResult { speed: 321.83 KB/s; elapsed: 930.822573ms; connection_time: 750.773448ms }
+# [CA] SpeedTestResult { speed: 9.50 MB/s; elapsed: 992.834534ms; connection_time: 880.877648ms }
+# [CA] SpeedTestResult { speed: 5.80 MB/s; elapsed: 998.628778ms; connection_time: 880.781801ms }
+# [DE] SpeedTestResult { speed: 344.15 KB/s; elapsed: 808.443485ms; connection_time: 882.694716ms }
+# [JP] SpeedTestResult { speed: 1.43 MB/s; elapsed: 996.626743ms; connection_time: 1.059556803s }
+# [JP] SpeedTestResult { speed: 3.16 MB/s; elapsed: 999.839876ms; connection_time: 1.228512281s }
+# [UK] SpeedTestResult { speed: 353.92 KB/s; elapsed: 926.829468ms; connection_time: 1.269008615s }
+# [CN] SpeedTestResult { speed: 382.01 KB/s; elapsed: 985.561712ms; connection_time: 1.666225207s }
+# TOO FEW BYTES LOADED https://mirror.sjtu.edu.cn/blackarch/
+# [EC] SpeedTestResult { speed: 1.55 MB/s; elapsed: 582.412144ms; connection_time: 7.379929558s }
+# [EC] SpeedTestResult { speed: 1.53 MB/s; elapsed: 578.677198ms; connection_time: 7.374551056s }
+#     TOP CONNECTION TIME: US - 244.511554ms
+#     TOP NEIGHBOR - CONNECTION TIME: UK - 750.773448ms
+#     TOP SPEED: US - 10.88 MB/s
+#     TOP NEIGHBOR - SPEED: CA - 9.50 MB/s
+# 
+# JUMP #2
+# EXPLORING UK
+#     + NEIGHBOR SG (by HubsFirst)
+#     + NEIGHBOR IN (by HubsFirst)
+#     + NEIGHBOR AU (by HubsFirst)
+#     + NEIGHBOR FR (by DistanceFirst)
+#     + NEIGHBOR CH (by DistanceFirst)
+#     + NEIGHBOR RU (by DistanceFirst)
+# EXPLORING CA
+#     + NEIGHBOR NL (by HubsFirst)
+#     + NEIGHBOR TW (by HubsFirst)
+#     + NEIGHBOR NZ (by HubsFirst)
+# [FR] SpeedTestResult { speed: 922.14 KB/s; elapsed: 998.435885ms; connection_time: 351.544754ms }
+# [NL] SpeedTestResult { speed: 864.97 KB/s; elapsed: 992.714054ms; connection_time: 354.31131ms }
+# [TW] SpeedTestResult { speed: 562.53 KB/s; elapsed: 996.173411ms; connection_time: 356.999902ms }
+# [CH] SpeedTestResult { speed: 778.77 KB/s; elapsed: 947.993136ms; connection_time: 456.279245ms }
+# [SG] SpeedTestResult { speed: 172.92 KB/s; elapsed: 965.656569ms; connection_time: 608.075158ms }
+# [TW] SpeedTestResult { speed: 761.81 KB/s; elapsed: 881.441646ms; connection_time: 805.855915ms }
+# [FR] SpeedTestResult { speed: 505.20 KB/s; elapsed: 895.381082ms; connection_time: 859.030123ms }
+# [CH] SpeedTestResult { speed: 953.79 KB/s; elapsed: 957.66183ms; connection_time: 917.600831ms }
+# [AU] SpeedTestResult { speed: 5.85 MB/s; elapsed: 994.917817ms; connection_time: 1.15501026s }
+# TOO FEW BYTES LOADED https://download.nus.edu.sg/mirror/blackarch/
+# [AU] SpeedTestResult { speed: 458.28 KB/s; elapsed: 988.32191ms; connection_time: 1.181567299s }
+# TOO FEW BYTES LOADED https://mirror.albony.xyz/blackarch/
+# [RU] SpeedTestResult { speed: 694.89 KB/s; elapsed: 937.331061ms; connection_time: 1.516443537s }
+# [IN] SpeedTestResult { speed: 588.43 KB/s; elapsed: 997.047683ms; connection_time: 1.740647937s }
+# [NZ] SpeedTestResult { speed: 322.89 KB/s; elapsed: 999.21367ms; connection_time: 479.656582ms }
+# [RU] SpeedTestResult { speed: 542.10 KB/s; elapsed: 853.108664ms; connection_time: 1.956792059s }
+# [NL] FAILED TO CONNECT TO http://mirror.neostrada.nl/blackarch/blackarch/os/x86_64/blackarch.files
+#     TOP NEIGHBOR - CONNECTION TIME: FR - 351.544754ms
+#     TOP NEIGHBOR - SPEED: AU - 5.85 MB/s
+# 
+# JUMP #3
+# EXPLORING FR
+#     + NEIGHBOR PL (by DistanceFirst)
+#     + NEIGHBOR SE (by DistanceFirst)
+#     + NEIGHBOR AT (by DistanceFirst)
+# EXPLORING AU
+#     + NEIGHBOR KR (by DistanceFirst)
+#     + NEIGHBOR TR (by DistanceFirst)
+#     + NEIGHBOR IT (by DistanceFirst)
+# [AT] SpeedTestResult { speed: 1.07 MB/s; elapsed: 851.418751ms; connection_time: 371.445553ms }
+# [TR] SpeedTestResult { speed: 528.21 KB/s; elapsed: 849.31831ms; connection_time: 625.821301ms }
+# [PL] SpeedTestResult { speed: 1.01 MB/s; elapsed: 902.415188ms; connection_time: 684.138799ms }
+# [IT] SpeedTestResult { speed: 643.86 KB/s; elapsed: 999.545999ms; connection_time: 749.079881ms }
+# [SE] SpeedTestResult { speed: 227.67 KB/s; elapsed: 965.676442ms; connection_time: 978.198415ms }
+# [PL] SpeedTestResult { speed: 1.09 MB/s; elapsed: 914.610133ms; connection_time: 1.026381373s }
+# [KR] SpeedTestResult { speed: 3.03 MB/s; elapsed: 995.982296ms; connection_time: 1.042454644s }
+# [KR] SpeedTestResult { speed: 4.20 MB/s; elapsed: 1.000029541s; connection_time: 1.125917875s }
+# [TR] SpeedTestResult { speed: 1.09 MB/s; elapsed: 920.25502ms; connection_time: 1.155220857s }
+# [IT] SpeedTestResult { speed: 787.70 KB/s; elapsed: 998.01059ms; connection_time: 1.168428598s }
+# [SE] SpeedTestResult { speed: 264.74 KB/s; elapsed: 989.297512ms; connection_time: 1.432244285s }
+#     TOP NEIGHBOR - CONNECTION TIME: AT - 371.445553ms
+#     TOP NEIGHBOR - SPEED: KR - 4.20 MB/s
+# 
+# JUMP #4
+# EXPLORING AT
+#     + NEIGHBOR HU (by DistanceFirst)
+#     + NEIGHBOR DK (by DistanceFirst)
+#     + NEIGHBOR BG (by DistanceFirst)
+# EXPLORING KR
+#     + NEIGHBOR MD (by DistanceFirst)
+#     + NEIGHBOR IR (by DistanceFirst)
+#     + NEIGHBOR PT (by DistanceFirst)
+# TOO FEW BYTES LOADED http://mirror.blackrepo.com/
+# [MD] SpeedTestResult { speed: 819.61 KB/s; elapsed: 989.977904ms; connection_time: 705.162622ms }
+# [MD] SpeedTestResult { speed: 372.88 KB/s; elapsed: 966.65747ms; connection_time: 1.141200181s }
+# [PT] SpeedTestResult { speed: 3.06 MB/s; elapsed: 999.620647ms; connection_time: 1.147650713s }
+# [BG] SpeedTestResult { speed: 515.30 KB/s; elapsed: 985.149637ms; connection_time: 1.348537751s }
+# [PT] SpeedTestResult { speed: 3.06 MB/s; elapsed: 982.228043ms; connection_time: 1.352545857s }
+# [HU] SpeedTestResult { speed: 372.29 KB/s; elapsed: 923.540849ms; connection_time: 1.604221312s }
+# [DK] SpeedTestResult { speed: 723.81 KB/s; elapsed: 995.535331ms; connection_time: 1.740589373s }
+#     TOP NEIGHBOR - CONNECTION TIME: MD - 705.162622ms
+#     TOP NEIGHBOR - SPEED: PT - 3.06 MB/s
+# SPEEDS ARE GETTING WORSE, STOPPING
+# 
+
+# RE-TESTING TOP MIRRORS
+# [US] SpeedTestResult { speed: 8.71 MB/s; elapsed: 959.078538ms; connection_time: 147.890726ms }
+# [CA] SpeedTestResult { speed: 12.03 MB/s; elapsed: 783.836714ms; connection_time: 582.121597ms }
+# [AU] SpeedTestResult { speed: 3.70 MB/s; elapsed: 999.888386ms; connection_time: 818.055875ms }
+# [CA] SpeedTestResult { speed: 12.73 MB/s; elapsed: 740.712999ms; connection_time: 621.701509ms }
+# [KR] SpeedTestResult { speed: 4.36 MB/s; elapsed: 995.067235ms; connection_time: 935.893006ms }
+# ==== RESULTS (top re-tested) ====
+#   1. [CA] SpeedTestResult { speed: 12.73 MB/s; elapsed: 740.712999ms; connection_time: 621.701509ms } -> https://ca.mirrors.cicku.me/blackarch/
+#   2. [CA] SpeedTestResult { speed: 12.03 MB/s; elapsed: 783.836714ms; connection_time: 582.121597ms } -> http://ca.mirrors.cicku.me/blackarch/
+#   3. [US] SpeedTestResult { speed: 8.71 MB/s; elapsed: 959.078538ms; connection_time: 147.890726ms } -> http://distro.ibiblio.org/blackarch/
+#   4. [KR] SpeedTestResult { speed: 4.36 MB/s; elapsed: 995.067235ms; connection_time: 935.893006ms } -> https://kr.mirrors.cicku.me/blackarch/
+#   5. [AU] SpeedTestResult { speed: 3.70 MB/s; elapsed: 999.888386ms; connection_time: 818.055875ms } -> http://au.mirrors.cicku.me/blackarch/
+#   6. [JP] SpeedTestResult { speed: 3.16 MB/s; elapsed: 999.839876ms; connection_time: 1.228512281s } -> https://jp.mirrors.cicku.me/blackarch/
+#   7. [PT] SpeedTestResult { speed: 3.06 MB/s; elapsed: 982.228043ms; connection_time: 1.352545857s } -> https://eu.mirrors.cicku.me/blackarch/
+#   8. [PT] SpeedTestResult { speed: 3.06 MB/s; elapsed: 999.620647ms; connection_time: 1.147650713s } -> http://eu.mirrors.cicku.me/blackarch/
+#   9. [KR] SpeedTestResult { speed: 3.03 MB/s; elapsed: 995.982296ms; connection_time: 1.042454644s } -> http://kr.mirrors.cicku.me/blackarch/
+#  10. [US] SpeedTestResult { speed: 1.58 MB/s; elapsed: 977.513649ms; connection_time: 728.79933ms } -> https://mirror.team-cymru.com/blackarch/
+#  11. [EC] SpeedTestResult { speed: 1.55 MB/s; elapsed: 582.412144ms; connection_time: 7.379929558s } -> http://mirror.cedia.org.ec/blackarch/
+#  12. [EC] SpeedTestResult { speed: 1.53 MB/s; elapsed: 578.677198ms; connection_time: 7.374551056s } -> https://mirror.cedia.org.ec/blackarch/
+#  13. [JP] SpeedTestResult { speed: 1.43 MB/s; elapsed: 996.626743ms; connection_time: 1.059556803s } -> http://jp.mirrors.cicku.me/blackarch/
+#  14. [PL] SpeedTestResult { speed: 1.09 MB/s; elapsed: 914.610133ms; connection_time: 1.026381373s } -> https://ftp.icm.edu.pl/pub/Linux/dist/blackarch/
+#  15. [TR] SpeedTestResult { speed: 1.09 MB/s; elapsed: 920.25502ms; connection_time: 1.155220857s } -> https://ftp.linux.org.tr/blackarch/
+#  16. [AT] SpeedTestResult { speed: 1.07 MB/s; elapsed: 851.418751ms; connection_time: 371.445553ms } -> http://mirror.easyname.at/blackarch/
+#  17. [PL] SpeedTestResult { speed: 1.01 MB/s; elapsed: 902.415188ms; connection_time: 684.138799ms } -> http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/
+#  18. [CH] SpeedTestResult { speed: 953.79 KB/s; elapsed: 957.66183ms; connection_time: 917.600831ms } -> https://mirror.tillo.ch/ftp/blackarch/
+#  19. [FR] SpeedTestResult { speed: 922.14 KB/s; elapsed: 998.435885ms; connection_time: 351.544754ms } -> http://blackarch.leneveu.fr/
+#  20. [NL] SpeedTestResult { speed: 864.97 KB/s; elapsed: 992.714054ms; connection_time: 354.31131ms } -> http://mirror.serverion.com/blackarch/
+#  21. [MD] SpeedTestResult { speed: 819.61 KB/s; elapsed: 989.977904ms; connection_time: 705.162622ms } -> http://md.mirrors.hacktegic.com/blackarch/
+#  22. [IT] SpeedTestResult { speed: 787.70 KB/s; elapsed: 998.01059ms; connection_time: 1.168428598s } -> https://blackarch.mirror.garr.it/mirrors/blackarch/
+#  23. [CH] SpeedTestResult { speed: 778.77 KB/s; elapsed: 947.993136ms; connection_time: 456.279245ms } -> http://mirror.easyname.ch/blackarch/
+#  24. [TW] SpeedTestResult { speed: 761.81 KB/s; elapsed: 881.441646ms; connection_time: 805.855915ms } -> https://blackarch.cs.nycu.edu.tw/
+#  25. [DK] SpeedTestResult { speed: 723.81 KB/s; elapsed: 995.535331ms; connection_time: 1.740589373s } -> https://mirrors.dotsrc.org/blackarch/
+#  26. [RU] SpeedTestResult { speed: 694.89 KB/s; elapsed: 937.331061ms; connection_time: 1.516443537s } -> http://repository.su/blackarch/
+#  27. [IT] SpeedTestResult { speed: 643.86 KB/s; elapsed: 999.545999ms; connection_time: 749.079881ms } -> http://blackarch.mirror.garr.it/mirrors/blackarch/
+#  28. [IN] SpeedTestResult { speed: 588.43 KB/s; elapsed: 997.047683ms; connection_time: 1.740647937s } -> http://in.mirrors.cicku.me/blackarch/
+#  29. [TW] SpeedTestResult { speed: 562.53 KB/s; elapsed: 996.173411ms; connection_time: 356.999902ms } -> http://blackarch.cs.nycu.edu.tw/
+#  30. [RU] SpeedTestResult { speed: 542.10 KB/s; elapsed: 853.108664ms; connection_time: 1.956792059s } -> https://repository.su/blackarch/
+#  31. [TR] SpeedTestResult { speed: 528.21 KB/s; elapsed: 849.31831ms; connection_time: 625.821301ms } -> http://ftp.linux.org.tr/blackarch/
+#  32. [BG] SpeedTestResult { speed: 515.30 KB/s; elapsed: 985.149637ms; connection_time: 1.348537751s } -> https://mirror.telepoint.bg/blackarch/
+#  33. [FR] SpeedTestResult { speed: 505.20 KB/s; elapsed: 895.381082ms; connection_time: 859.030123ms } -> http://mirror.cyberbits.eu/blackarch/
+#  34. [AU] SpeedTestResult { speed: 458.28 KB/s; elapsed: 988.32191ms; connection_time: 1.181567299s } -> http://blackarch.mirror.digitalpacific.com.au/
+#  35. [CN] SpeedTestResult { speed: 382.01 KB/s; elapsed: 985.561712ms; connection_time: 1.666225207s } -> https://mirrors.tuna.tsinghua.edu.cn/blackarch/
+#  36. [MD] SpeedTestResult { speed: 372.88 KB/s; elapsed: 966.65747ms; connection_time: 1.141200181s } -> https://md.mirrors.hacktegic.com/blackarch/
+#  37. [HU] SpeedTestResult { speed: 372.29 KB/s; elapsed: 923.540849ms; connection_time: 1.604221312s } -> https://quantum-mirror.hu/mirrors/pub/blackarch/
+#  38. [UK] SpeedTestResult { speed: 353.92 KB/s; elapsed: 926.829468ms; connection_time: 1.269008615s } -> https://www.mirrorservice.org/sites/blackarch.org/blackarch/
+#  39. [DE] SpeedTestResult { speed: 344.15 KB/s; elapsed: 808.443485ms; connection_time: 882.694716ms } -> https://blackarch.org/blackarch/
+#  40. [NZ] SpeedTestResult { speed: 322.89 KB/s; elapsed: 999.21367ms; connection_time: 479.656582ms } -> http://nz-mirror.intergrid.com.au/blackarch/
+#  41. [UK] SpeedTestResult { speed: 321.83 KB/s; elapsed: 930.822573ms; connection_time: 750.773448ms } -> http://www.mirrorservice.org/sites/blackarch.org/blackarch/
+#  42. [SE] SpeedTestResult { speed: 264.74 KB/s; elapsed: 989.297512ms; connection_time: 1.432244285s } -> https://mirror.zetup.net/blackarch/
+#  43. [SE] SpeedTestResult { speed: 227.67 KB/s; elapsed: 965.676442ms; connection_time: 978.198415ms } -> http://mirror.zetup.net/blackarch/
+#  44. [SG] SpeedTestResult { speed: 172.92 KB/s; elapsed: 965.656569ms; connection_time: 608.075158ms } -> http://download.nus.edu.sg/mirror/blackarch/
+# FINISHED AT: 2024-10-19 20:24:22.999233870 -07:00
+Server = https://ca.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = http://ca.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = http://distro.ibiblio.org/blackarch/$repo/os/$arch
+Server = https://kr.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = http://au.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = https://jp.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = https://eu.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = http://eu.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = http://kr.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = https://mirror.team-cymru.com/blackarch/$repo/os/$arch
+Server = http://mirror.cedia.org.ec/blackarch/$repo/os/$arch
+Server = https://mirror.cedia.org.ec/blackarch/$repo/os/$arch
+Server = http://jp.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = https://ftp.icm.edu.pl/pub/Linux/dist/blackarch/$repo/os/$arch
+Server = https://ftp.linux.org.tr/blackarch/$repo/os/$arch
+Server = http://mirror.easyname.at/blackarch/$repo/os/$arch
+Server = http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/$repo/os/$arch
+Server = https://mirror.tillo.ch/ftp/blackarch/$repo/os/$arch
+Server = http://blackarch.leneveu.fr/$repo/os/$arch
+Server = http://mirror.serverion.com/blackarch/$repo/os/$arch
+Server = http://md.mirrors.hacktegic.com/blackarch/$repo/os/$arch
+Server = https://blackarch.mirror.garr.it/mirrors/blackarch/$repo/os/$arch
+Server = http://mirror.easyname.ch/blackarch/$repo/os/$arch
+Server = https://blackarch.cs.nycu.edu.tw/$repo/os/$arch
+Server = https://mirrors.dotsrc.org/blackarch/$repo/os/$arch
+Server = http://repository.su/blackarch/$repo/os/$arch
+Server = http://blackarch.mirror.garr.it/mirrors/blackarch/$repo/os/$arch
+Server = http://in.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = http://blackarch.cs.nycu.edu.tw/$repo/os/$arch
+Server = https://repository.su/blackarch/$repo/os/$arch
+Server = http://ftp.linux.org.tr/blackarch/$repo/os/$arch
+Server = https://mirror.telepoint.bg/blackarch/$repo/os/$arch
+Server = http://mirror.cyberbits.eu/blackarch/$repo/os/$arch
+Server = http://blackarch.mirror.digitalpacific.com.au/$repo/os/$arch
+Server = https://mirrors.tuna.tsinghua.edu.cn/blackarch/$repo/os/$arch
+Server = https://md.mirrors.hacktegic.com/blackarch/$repo/os/$arch
+Server = https://quantum-mirror.hu/mirrors/pub/blackarch/$repo/os/$arch
+Server = https://www.mirrorservice.org/sites/blackarch.org/blackarch/$repo/os/$arch
+Server = https://blackarch.org/blackarch/$repo/os/$arch
+Server = http://nz-mirror.intergrid.com.au/blackarch/$repo/os/$arch
+Server = http://www.mirrorservice.org/sites/blackarch.org/blackarch/$repo/os/$arch
+Server = https://mirror.zetup.net/blackarch/$repo/os/$arch
+Server = http://mirror.zetup.net/blackarch/$repo/os/$arch
+Server = http://download.nus.edu.sg/mirror/blackarch/$repo/os/$arch
