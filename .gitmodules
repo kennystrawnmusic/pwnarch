@@ -1,0 +1,3 @@
+[submodule "airootfs/etc/calamares"]
+	path = airootfs/etc/calamares
+	url = https://github.com/BlackArch/blackarch-config-calamares
